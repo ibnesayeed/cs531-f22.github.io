@@ -1,0 +1,209 @@
+- title: Lecture 1
+  date: 2022-08-31
+  featured: true
+  topics:
+    - Administrivia
+    - Introduction to HTTP
+    - W3C Web Architecture
+    - Git/GitHub
+    - telnet
+    - curl
+    - wget
+  links:
+    - title: Administrivia and HTTP Intro Slides
+      href: /slides/lecture-01-admin-http.pdf
+    - title: GitHub Account and PR Slides
+      href: /slides/lecture-01-github.pdf
+    - title: Web Architecture
+      href: https://www.w3.org/TR/webarch/
+    - title: RFC 7230 (Sections 1, 2, and 3)
+      href: https://tools.ietf.org/html/rfc7230
+    - title: RFC 7231 (Sections 1, 2, 4, and 6)
+      href: https://tools.ietf.org/html/rfc7231
+- title: Lecture 2
+  date: 2022-09-07
+  topics:
+    - URIs
+    - Logs
+    - MIME
+    - Socket Programming
+    - Introduction to Python
+  links:
+    - title: URIs, Logs, and MIME Slides
+      href: /slides/lecture-02-uris-logs-mime.pdf
+    - title: Socket Programming Slides
+      href: /slides/lecture-02-socket.pdf
+    - title: Introduction to Python Slides
+      href: /slides/lecture-02-python.pdf
+    - title: RFC 7230 (Section 5)
+      href: https://tools.ietf.org/html/rfc7230
+    - title: RFC 3986
+      href: https://tools.ietf.org/html/rfc3986
+- title: Lecture 3
+  date: 2022-09-14
+  topics:
+    - Conditionals (ETags and Date-time)
+    - Redirections
+    - Introduction to Docker
+    - Testing Setup
+  links:
+    - title: Conditionals and Redirections Slides
+      href: /slides/lecture-03-conditionals-redirections.pdf
+    - title: Docker Slides
+      href: /slides/lecture-03-docker.pdf
+    - title: Interactive Docker Tutorial
+      href: https://training.play-with-docker.com/microservice-orchestration/
+    - title: Testing Server
+      href: https://github.com/ibnesayeed/webserver-tester
+    - title: RFC 7231 (Section 6.4)
+      href: https://tools.ietf.org/html/rfc7231
+    - title: RFC 7538
+      href: https://tools.ietf.org/html/rfc7538
+    - title: RFC 7232
+      href: https://tools.ietf.org/html/rfc7232
+- title: Lecture 4
+  date: 2022-09-21
+  topics:
+    - Long-lived Connections
+    - Pipelines
+  links:
+    - title: Long-lived Connections and Pipelines Slides
+      href: /slides/lecture-04-long-lived-connections-pipelines.pdf
+    - title: RFC 7230 (Section 6)
+      href: https://tools.ietf.org/html/rfc7230
+    - title: RFC 7231 (Section 4.2)
+      href: https://tools.ietf.org/html/rfc7231
+- title: Lecture 5
+  date: 2022-09-28
+  topics:
+    - Range and Partial Content
+  links:
+    - title: Range and Partial Content Slides
+      href: /slides/lecture-05-range-partial-content.pdf
+    - title: RFC 7233
+      href: https://tools.ietf.org/html/rfc7233
+- title: Lecture 6
+  date: 2022-10-05
+  topics:
+    - Character Encoding
+    - Content Encodings
+    - Transfer Encodings
+  links:
+    - title: Character, Content, and Transfer Encodings Slides
+      href: /slides/lecture-06-character-content-transfer-encodings.pdf
+    - title: RFC 7230 (Section 3.3.1, 4)
+      href: https://tools.ietf.org/html/rfc7230
+    - title: RFC 7231 (Section 3.1.2, 5.5)
+      href: https://tools.ietf.org/html/rfc7231
+- title: Lecture 7
+  date: 2022-10-12
+  topics:
+    - Content Negotiation
+  links:
+    - title: Content Negotiation Slides
+      href: /slides/lecture-07-content-negotiation.pdf
+    - title: RFC 7231 (Section 3.4, 5.3)
+      href: https://tools.ietf.org/html/rfc7231
+    - title: RFC 2295
+      href: https://tools.ietf.org/html/rfc2295
+- title: Lecture 8
+  date: 2022-10-19
+  topics:
+    - Authentication (Basic and Digest)
+  links:
+    - title: Authentication Slides
+      href: /slides/lecture-08-authentication.pdf
+    - title: RFC 7235
+      href: https://tools.ietf.org/html/rfc7235
+    - title: RFC 7616
+      href: https://tools.ietf.org/html/rfc7616
+    - title: RFC 7617
+      href: https://tools.ietf.org/html/rfc7617
+- title: Lecture 9
+  date: 2022-10-26
+  topics:
+    - Unsafe Methods
+    - Server-side Execution
+    - CGI
+  links:
+    - title: Unsafe Methods Slides
+      href: /slides/lecture-09-unsafe-methods.pdf
+    - title: Server-Side Execution Slides
+      href: /slides/lecture-09-server-side-execution.pdf
+    - title: RFC 3875
+      href: https://tools.ietf.org/html/rfc3875
+- title: Lecture 10
+  date: 2022-11-02
+  topics:
+    - HTTPS (HTTP Over TLS)
+    - HTTP/2
+    - HTTP/3
+  links:
+    - title: HTTPS Slides
+      href: /slides/lecture-10-https.pdf
+    - title: HTTP/2 and HTTP/3 Slides
+      href: /slides/lecture-10-http2-http3.pdf
+    - title: HTTP2 Explained
+      href: https://daniel.haxx.se/http2/
+    - title: HTTP3 Explained
+      href: https://daniel.haxx.se/http3-explained/
+    - title: RFC 2818
+      href: https://tools.ietf.org/html/rfc2818
+    - title: RFC 8555
+      href: https://tools.ietf.org/html/rfc8555
+    - title: RFC 7540
+      href: https://tools.ietf.org/html/rfc7540
+    - title: HTTP3 RFC Draft
+      href: https://tools.ietf.org/html/draft-ietf-quic-http-23
+- title: Lecture 11
+  date: 2022-11-09
+  topics:
+    - REST/HATEOAS
+    - Memento
+    - HTTP Method Support
+  links:
+    - title: REST, HATEOAS, and Follow Your Nose
+      href: https://ws-dl.blogspot.com/2013/11/2013-11-19-rest-hateoas-and-follow-your.html
+    - title: Domain-Driven Design for RESTful Systems - Jim Webber
+      href: https://www.youtube.com/watch?v=aQVSzMV8DWc
+    - title: How I Explained REST to My Wife - Ryan Tomayko
+      href: https://web.archive.org/web/20111006111858/http://tomayko.com:80/writings/rest-to-my-wife
+    - title: Memento 101
+      href: https://www.slideshare.net/hvdsomp/memento-101
+    - title: Support for Various HTTP Methods on the Web
+      href: https://www.slideshare.net/ibnesayeed/support-for-various-http-methods-on-the-web
+- title: Lecture 12
+  date: 2022-11-16
+  topics:
+    - HTTPMailbox
+    - WARC
+    - Web Packaging
+  links:
+    - title: HTTP Mailbox - Asynchronous RESTful Communication
+      href: https://www.slideshare.net/ibnesayeed/httpmailbox
+    - title: Web ARChive (WARC) File Format
+      href: https://www.slideshare.net/ibnesayeed/web-archive-warc-file-format
+    - title: Supporting Web Archiving via Web Packaging
+      href: https://www.slideshare.net/ibnesayeed/supporting-web-archiving-via-web-packaging
+- title: Thanksgiving
+  date: 2022-11-23
+  topics:
+    - NO CLASS
+- title: Lecture 13
+  date: 2022-11-30
+  topics:
+    - InterPlanetary File System (IPFS)
+    - InterPlanetary Wayback (IPWB)
+  links:
+    - title: How IPFS Works
+      href: https://www.cs.odu.edu/~salam/presentations/How-IPFS-Works.pdf
+    - title: InterPlanetary Wayback - The Next Step Towards Decentralized Web Archiving
+      href: https://www.slideshare.net/ibnesayeed/interplanetary-wayback-the-next-step-towards-decentralized-web-archiving-108525567
+- title: RESERVED
+  date: 2022-12-07
+  topics:
+    - NO CLASS
+- title: Exam Week
+  date: 2022-12-14
+  topics:
+    - NO CLASS

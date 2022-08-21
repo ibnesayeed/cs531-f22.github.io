@@ -1,0 +1,23 @@
+permalink: pretty
+navigation:
+  - title: Home
+    href: /
+  - title: Syllabus
+    href: /syllabus/
+  - title: Lectures
+    href: /lectures/
+  - title: Assignments
+    href: /assignments/
+  - title: Tester
+    href: https://github.com/ibnesayeed/webserver-tester
+  - title: Discussions
+    href: https://github.com/cs531-f22/cs531-f22.github.io/discussions
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "assignments/*"
+    values:
+      layout: "assignment"

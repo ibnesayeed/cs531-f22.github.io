@@ -1,0 +1,32 @@
+title: CS 431/531 Web Server Design
+description: A course to develop a standard compliant HTTP web server
+semester: Fall 2022
+homepage: https://cs531-f22.github.io/
+prerequisites: Familiarity with Unix/Linux, Socket programming, Git, and Docker
+office: E&CS 3102 and online
+officehours: Wednesdays, 3:00-4:00pm and by appointment
+university:
+  name: Old Dominion University
+  abbr: ODU
+  url: https://odu.edu/
+department:
+  name: Department of Computer Science
+  abbr: CS
+  url: https://odu.edu/compsci
+location: Online and on-campus (address: TBD)
+timing: Wednesdays, 4:20-7:00pm
+crns:
+  - 23955 (CS431) [In Hampton Roads]
+  - 23956 (CS431) [In Virginia]
+  - 23957 (CS431) [Outside Virginia]
+  - 23958 (CS531) [In Hampton Roads]
+  - 23959 (CS531) [In Virginia]
+  - 23960 (CS531) [Outside Virginia]
+instructor:
+  name: Sawood Alam
+  email: salam@odu.edu
+  url: https://archive.org/~sawood/
+  twitter: ibnesayeed
+  avatar: /assets/images/SawoodAlam.jpg
+discussions: https://github.com/cs531-f22/cs531-f22.github.io/discussions
+banner: /assets/images/http-response-headers.png

@@ -1,0 +1,109 @@
+---
+---
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../fonts/open-sans-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/open-sans-bold.woff2') format('woff2');
+}
+
+@import "jekyll-theme-cayman";
+
+.page-header {
+  .btn {
+    min-width: 130px;
+  }
+  .btn.active {
+    color: $section-headings-color;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .project-name a {
+    color: $header-heading-color;
+    text-decoration: none;
+  }
+}
+
+.instructor {
+  text-align: center;
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+  }
+}
+
+.important {
+  color: $alert-text-color;
+}
+
+.notice {
+  background-color: $alert-bg-color;
+  color: $alert-text-color;
+}
+
+.card {
+  display: flex;
+  border: 1px solid $border-color;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card .date {
+  width: 80px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 5px;
+  background: #b2bec3;
+  color: $header-heading-color;
+  border-radius: 10px 0 0 10px;
+}
+
+.card.featured .date {
+  background: $header-bg-color;
+}
+
+.card .details {
+  padding: 5px 10px;
+  flex: 1;
+}
+
+.card ul.links {
+  list-style: none;
+  padding: 0;
+  > li {
+    display: inline;
+  }
+  > li:not(:last-child)::after {
+    content: "|";
+    margin: 0 .25em;
+  }
+}
+
+.site-footer {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+p.expand {
+  text-align: right;
+}
+
+.card h2 a {
+  color: $section-headings-color;
+}
+
+.page-header {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='250px' width='500px'><text x='0' y='0' font-size='18' fill='dimgray' font-family='monospace'><tspan x='0.5em' dy='1.1em'>HTTP/1.1 200 OK</tspan><tspan x='0.5em' dy='1.1em'>Content-Type: text/html; charset=utf-8</tspan><tspan x='0.5em' dy='1.1em'>Content-Length: 8130</tspan><tspan x='0.5em' dy='1.1em'>Date: Sat, 07 Sep 2019 00:06:37 GMT</tspan><tspan x='0.5em' dy='1.1em'>Last-Modified: Fri, 06 Sep 2019 23:13:36 GMT</tspan><tspan x='0.5em' dy='1.1em'>Expires: Sat, 07 Sep 2019 00:16:37 GMT</tspan><tspan x='0.5em' dy='1.1em'>ETag: \"5d72e820-1fc2\"</tspan><tspan x='0.5em' dy='1.1em'>Cache-Control: max-age=600</tspan><tspan x='0.5em' dy='1.1em'>Vary: Accept-Encoding</tspan><tspan x='0.5em' dy='1.1em'>Accept-Ranges: bytes</tspan><tspan x='0.5em' dy='1.1em'>Server: GitHub.com</tspan><tspan x='0.5em' dy='1.1em'>Connection: keep-alive</tspan></text></svg>"), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
