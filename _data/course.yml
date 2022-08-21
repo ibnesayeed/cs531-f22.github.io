@@ -4,7 +4,7 @@ semester: Fall 2022
 homepage: https://cs531-f22.github.io/
 prerequisites: Familiarity with Unix/Linux, Socket programming, Git, and Docker
 office: E&CS 3102 and online
-officehours: Wednesdays, 3:00-4:00pm and by appointment
+officehours: Wednesdays, 3:00-4:00pm (Eastern Time) and by appointment
 university:
   name: Old Dominion University
   abbr: ODU
@@ -14,7 +14,7 @@ department:
   abbr: CS
   url: https://odu.edu/compsci
 location: Online and on-campus E&CS 3102
-timing: Wednesdays, 4:20-7:00pm
+timing: Wednesdays, 4:20-7:00pm (Eastern Time)
 crns:
   - 23955 (CS431) [In Hampton Roads]
   - 23956 (CS431) [In Virginia]
