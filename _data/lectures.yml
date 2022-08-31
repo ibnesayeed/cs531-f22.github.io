@@ -10,8 +10,10 @@
     - curl
     - wget
   links:
-    - title: Administrivia and HTTP Intro Slides
-      href: /slides/lecture-01-admin-http.pdf
+    - title: Administrivia Slides
+      href: /slides/lecture-01-admin.pdf
+    - title: HTTP Intro Slides
+      href: /slides/lecture-01-http.pdf
     - title: GitHub Account and PR Slides
       href: /slides/lecture-01-github.pdf
     - title: Web Architecture
