@@ -1,6 +1,6 @@
 - title: Assignment 0-0
   description: A set of mandatory tasks, which will give extra points if done timely.
-  date: 2022-09-07
+  date: 2022-09-14
   points: 5
   extra: true
   featured: true
@@ -30,7 +30,7 @@
     - Run an echo server in it
 - title: Assignment 0-3
   description: Mobile domain redirection and non-accept-encoding content negotiation examples in the wild.
-  date: 2022-09-05
+  date: 2022-10-05
   points: 6
   extra: true
   dormant: true

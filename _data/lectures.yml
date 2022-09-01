@@ -5,7 +5,6 @@
     - Administrivia
     - Introduction to HTTP
     - W3C Web Architecture
-    - Git/GitHub
     - telnet
     - curl
     - wget
@@ -14,8 +13,6 @@
       href: /slides/lecture-01-admin.pdf
     - title: HTTP Intro Slides
       href: /slides/lecture-01-http.pdf
-    - title: GitHub Account and PR Slides
-      href: /slides/lecture-01-github.pdf
     - title: Web Architecture
       href: https://www.w3.org/TR/webarch/
     - title: RFC 7230 (Sections 1, 2, and 3)
@@ -24,15 +21,19 @@
       href: https://tools.ietf.org/html/rfc7231
 - title: Lecture 2
   date: 2022-09-07
+  featured: true
   topics:
     - URIs
     - Logs
     - MIME
+    - Git/GitHub
     - Socket Programming
     - Introduction to Python
   links:
     - title: URIs, Logs, and MIME Slides
       href: /slides/lecture-02-uris-logs-mime.pdf
+    - title: GitHub Account and PR Slides
+      href: /slides/lecture-02-github.pdf
     - title: Socket Programming Slides
       href: /slides/lecture-02-socket.pdf
     - title: Introduction to Python Slides
